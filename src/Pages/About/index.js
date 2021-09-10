@@ -27,14 +27,14 @@ function About(props) {
         {
           data.map((item)=>{
             return(
-              <Team item={item.name}/>
+              <Team itemProp={item.name}/>
             )
           })
         }
       </ul>
 
       <ul>
-        <Team2 items={data} />
+        <Team2 itemsProps={data} />
       </ul>
 
       <ul>

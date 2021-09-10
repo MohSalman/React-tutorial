@@ -1,8 +1,8 @@
-const Team2 = ({items}) => {
+const Team2 = ({itemsProps}) => {
     return (
         <>
         {
-            items.map((item)=>(
+            itemsProps.map((item)=>(
                 <li>{item.name}</li>
             ))
         }

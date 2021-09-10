@@ -1,7 +1,7 @@
-const Team = (props) => {
+const Team = ({itemProp}) => {
     return (
         <>
-            <li>{props.item}</li>
+            <li>{itemProp}</li>
         </>
     )
 }
