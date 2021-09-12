@@ -1,0 +1,9 @@
+.btn.button-primary{
+    background-color: red;
+    color: #ffffff;
+}
+
+.btn.button-secondary{
+    background-color: black;
+    color: #ffffff;
+}
