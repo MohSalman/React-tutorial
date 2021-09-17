@@ -15,6 +15,9 @@ function Header(props) {
             <li style={{display:'inline-block', margin: "10px"}}>
                 <NavLink exact to="/about">About</NavLink>
             </li>
+            <li style={{display:'inline-block', margin: "10px"}}>
+                <NavLink exact to="/react-state">React State</NavLink>
+            </li>
         </ul>
     );
   }

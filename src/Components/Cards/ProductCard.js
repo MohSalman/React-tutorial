@@ -2,7 +2,7 @@ const ProductCard = ({ productData, customClass }) => {
     return (
         <>
             {
-                productData.map((item) => (
+                productData?.map((item) => (
                     <div className="col-lg-4 mb-3">
                         <div className={`card ${customClass}`}>
                             <img className="card-img-top" src={item.imageURL} alt="Card image cap" />
