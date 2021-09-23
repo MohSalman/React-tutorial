@@ -26,7 +26,7 @@ const Data = [
 
 const OldAge =()=>{
     return(
-            <ProductCard customClass="bg-warning"  productData={Data} />
+            <ProductCard customclassName="bg-warning"  productData={Data} />
         
     )
 }

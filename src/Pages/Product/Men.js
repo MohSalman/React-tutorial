@@ -25,7 +25,7 @@ const Data = [
 
 const Mens =()=>{
     return(
-            <ProductCard customClass="bg-primary"  productData={Data} />
+            <ProductCard customclassName="bg-primary"  productData={Data} />
     )
 }
 

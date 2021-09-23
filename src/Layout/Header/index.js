@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header(props) {
     return (
@@ -17,6 +17,9 @@ function Header(props) {
             </li>
             <li style={{display:'inline-block', margin: "10px"}}>
                 <NavLink exact to="/react-state">React State</NavLink>
+            </li>
+            <li style={{display:'inline-block', margin: "10px"}}>
+                <NavLink exact to="/post">Post</NavLink>
             </li>
         </ul>
     );

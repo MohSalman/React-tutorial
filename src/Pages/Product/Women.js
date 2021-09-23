@@ -27,7 +27,7 @@ const Data = [
 const Women =()=>{
     return(
         
-            <ProductCard customClass="bg-danger" productData={Data} />
+            <ProductCard customclassName="bg-danger" productData={Data} />
     )
 }
 

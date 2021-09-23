@@ -5,7 +5,7 @@ import { SpinnerLoader } from "../../Components/Loaders/SpinnerLoader";
 import { sampleData } from "../../JsonData/ProductSampleData";
 
 function ReactState(props) {
-
+  console.log("component console")
   const [count, setCount] = useState();
   const [parentCount, setParentCount] = useState(0);
   const [Data, setDate] = useState([]);
@@ -25,6 +25,7 @@ function ReactState(props) {
       callAPI();
       setLoader(false)
     }, 2000)
+    console.log("useEffect console")
   }, [])
 
 
@@ -36,6 +37,7 @@ function ReactState(props) {
 
   return (
     <div className="container">
+      {console.log("return console")}
       <div className="row">
         <div className="col col-xxl-3 col-xl-4 col-lg-6 col-md-4">
           <CardOne 
@@ -52,7 +54,7 @@ function ReactState(props) {
           {
             loader? <SpinnerLoader/>:""
           }
-          <ProductCard customClass="bg-primary"  productData={Data.length <= 0? [] :Data} />
+          <ProductCard customclassName="bg-primary"  productData={Data.length <= 0? [] :Data} />
         </div>
       </div>
     </div>

@@ -18,14 +18,14 @@ function Home(props) {
   }
   return (
     <div className="container mb-3">
-      <Button btnClickEvent={hello} btnText="hello" btnClass="button-primary" />
-      <Button btnClickEvent={bye} btnText="bye" btnClass="button-secondary" />
+      <Button btnClickEvent={hello} btnText="hello" btnclassName="button-primary" />
+      <Button btnClickEvent={bye} btnText="bye" btnclassName="button-secondary" />
 
       <div className="mb-3">
         <label>Name</label>
         <Input 
           inputType="text"
-          inputClass="text-class"
+          inputclassName="text-class"
           inputPlaceholder="name"
           // inputValue="hello"
         />
@@ -34,7 +34,7 @@ function Home(props) {
         <label>Email</label>
         <Input 
           inputType="email"
-          inputClass="email-class"
+          inputclassName="email-class"
           inputPlaceholder="Email"
           inputValue={email}
           inputChangeEvent={changeEmail}
@@ -44,7 +44,7 @@ function Home(props) {
         <label>phone</label>
         <Input 
           inputType="phone"
-          inputClass="phone-class"
+          inputclassName="phone-class"
           inputPlaceholder="phone"
           // inputValue="hello"
           
